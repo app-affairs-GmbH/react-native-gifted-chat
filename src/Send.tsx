@@ -103,7 +103,7 @@ export default class Send<
           {...sendButtonProps}
         >
           <View>
-            {children || <Text style={[styles.text, textStyle]}>{label}</Text>}
+            {children || <Text allowFontScaling={false} style={[styles.text, textStyle]}>{label}</Text>}
           </View>
         </TouchableOpacity>
       )

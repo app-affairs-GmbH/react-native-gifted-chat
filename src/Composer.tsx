@@ -104,6 +104,7 @@ export default class Composer extends React.Component<ComposerProps> {
   render() {
     return (
       <TextInput
+        allowFontScaling={false} 
         testID={this.props.placeholder}
         accessible
         accessibilityLabel={this.props.placeholder}

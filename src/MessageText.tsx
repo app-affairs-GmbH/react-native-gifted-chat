@@ -176,6 +176,7 @@ export default class MessageText<
         ]}
       >
         <ParsedText
+          allowFontScaling={false} 
           style={[
             styles[this.props.position].text,
             this.props.textStyle && this.props.textStyle[this.props.position],

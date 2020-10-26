@@ -98,6 +98,7 @@ export default class Time<
           ]}
         >
           <Text
+            allowFontScaling={false}
             style={
               [
                 styles[position].text,
